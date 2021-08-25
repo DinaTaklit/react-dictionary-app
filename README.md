@@ -1,7 +1,9 @@
-# React Fund Projects
+# React Dictionary
 
-Improve your skills with the React JavaScript library by building 15 projects using React.
+- This a dictionary that provide a meaning of words in some supported languages.
+- The app was build with react and Material ui.
+- The project was build as progressive web app.
 
-## credits
+## Credits
 
-All credits goes for this react tuto from john smigla [Code 15 React Projects - Complete Course](https://www.youtube.com/watch?v=a_7Z7C_JCyo)
+All credits goes for this course [Code a Dictionary with React and Material UI - Tutorial](https://www.youtube.com/watch?v=ToXna81iij0)
