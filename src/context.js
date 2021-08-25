@@ -24,8 +24,22 @@ export const AppProvider = ({children}) => {
         }
     }
 
+    // UseEffect to fetch the meaning every time the word changes or the selected language changes
+    useEffect(() => {
+        fetchMeanings()
+    }, [word, category])
+
     return (
-        <AppContext.Provider value={{}}>
+        <AppContext.Provider value={{
+            word, 
+            setWord,
+            category,
+            setCategory,
+            meanings,
+            setMeanings,
+            darkMode,
+            setDarkMode
+        }}>
             {children}
         </AppContext.Provider>
     )
