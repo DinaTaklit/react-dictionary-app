@@ -4,8 +4,8 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone",
-  "scope": "/React-Dictionary-App/",
-  "start_url": "/React-Dictionary-App/",
+  "scope": "/react-dictionary-app/",
+  "start_url": "/react-dictionary-app/",
   "icons": [
     {
       "src": "maskable.png",
