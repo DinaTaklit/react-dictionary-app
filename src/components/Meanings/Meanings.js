@@ -1,3 +1,4 @@
+import { dark } from '@material-ui/core/styles/createPalette'
 import React from 'react'
 import { useGlobalContext } from '../../context'
 import './Meanings.css'
@@ -5,7 +6,7 @@ import './Meanings.css'
 function Meanings() {
 
     // Get the global application context
-    const {meanings, word} = useGlobalContext()
+    const {meanings, word, darkMode} = useGlobalContext()
 
     return (
         <div className="meanings">
@@ -40,8 +41,8 @@ function Meanings() {
                                     <div
                                         className="singleMean"
                                         style={{
-                                            backgroundColor: 'white',
-                                            color:'black'
+                                            backgroundColor: darkMode ?  "#fff":  "#3b5360",
+                                            color: darkMode ? "#000" : "#fff",
                                         }}
                                     >
                                         <b>{def.definition}</b>
