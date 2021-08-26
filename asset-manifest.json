@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Dictionary-App/static/css/main.f8ff3662.chunk.css",
-    "main.js": "/React-Dictionary-App/static/js/main.c56a7db5.chunk.js",
-    "main.js.map": "/React-Dictionary-App/static/js/main.c56a7db5.chunk.js.map",
+    "main.js": "/React-Dictionary-App/static/js/main.7aa9c02c.chunk.js",
+    "main.js.map": "/React-Dictionary-App/static/js/main.7aa9c02c.chunk.js.map",
     "runtime-main.js": "/React-Dictionary-App/static/js/runtime-main.b9eb685d.js",
     "runtime-main.js.map": "/React-Dictionary-App/static/js/runtime-main.b9eb685d.js.map",
     "static/js/2.14c5db94.chunk.js": "/React-Dictionary-App/static/js/2.14c5db94.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b9eb685d.js",
     "static/js/2.14c5db94.chunk.js",
     "static/css/main.f8ff3662.chunk.css",
-    "static/js/main.c56a7db5.chunk.js"
+    "static/js/main.7aa9c02c.chunk.js"
   ]
 }
