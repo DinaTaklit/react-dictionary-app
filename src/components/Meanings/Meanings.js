@@ -10,6 +10,20 @@ function Meanings() {
     return (
         <div className="meanings">
             {
+                // Audio
+                meanings[0] && word &&(
+                    <audio
+                        style={{ backgroundColor: "#fff", borderRadius: 10 }}
+                        src={meanings[0].phonetics[0] && meanings[0].phonetics[0].audio}
+                        controls
+                  >
+                    Your browser does not support the audio element.
+                  </audio>
+                )
+                // /Audio
+            }
+            
+            {
                 word === "" ? (
                     <span
                         className="subTitle"
@@ -19,7 +33,9 @@ function Meanings() {
                 ) : (
                     meanings.map(meaning =>{
                         const {meanings} = meaning
+                        // loop throw the list of meaning
                         return meanings.map(item => 
+                                // loop throw the list of definition
                                 item.definitions.map( def => 
                                     <div
                                         className="singleMean"
@@ -36,6 +52,7 @@ function Meanings() {
                                             }}
                                         />
                                         {
+                                            // Display example if there is any
                                             def.example && (
                                                 <span>
                                                     <b> Example: </b>
@@ -44,7 +61,7 @@ function Meanings() {
                                             )
                                         }
                                         {
-                                            
+                                            // Display synonyms if there is any
                                             def.synonyms.length !==0 && (
                                                 <span>
                                                     <b> Synonyms: </b>
