@@ -4,6 +4,7 @@
 - The app was build with react and Material ui.
 - The app make use of react hooks: useStatre, useEffect, useContext. and consume [Dictionary API](https://dictionaryapi.dev)
 - The project was build as progressive web app.
+- The app was deployed on git using this [guide](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 
 ## Credits
 
