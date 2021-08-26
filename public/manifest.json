@@ -1,6 +1,6 @@
 {
-  "name": "Dictionary App ",
-  "short_name": "Dictionary App",
+  "name": "React Dictionary App ",
+  "short_name": "React Dictionary App",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone",
