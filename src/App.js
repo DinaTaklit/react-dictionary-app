@@ -1,5 +1,6 @@
 import { Container } from "@material-ui/core";
 import Header from "./components/Header/Header";
+import Meanings from "./components/Meanings/Meanings";
 
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
     >
       <Container
         maxWidth="md" 
-        id="appContainer"
         style={{
           display: "flex",
           flexDirection: "column",
@@ -20,6 +20,7 @@ function App() {
         }}
       >
         <Header/>
+        <Meanings/>
       </Container>
     </main>
 
