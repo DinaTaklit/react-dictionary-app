@@ -8,12 +8,11 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import {AppProvider} from './context';
 
 ReactDOM.render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <AppProvider>
       <App/>
     </AppProvider>
-  // </React.StrictMode>,
-  ,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
