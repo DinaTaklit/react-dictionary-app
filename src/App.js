@@ -12,7 +12,8 @@ function App() {
     <main 
       style={{
         backgroundColor: darkMode ? '#282c34' : '#fff',
-        color: darkMode ? '#fff' : '#000'   
+        color: darkMode ? '#fff' : '#000',
+        transition: 'all 0.5s linear'  
       }}
     >
       <Container
