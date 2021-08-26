@@ -2,13 +2,17 @@ import { Container } from "@material-ui/core";
 import Header from "./components/Header/Header";
 import Meanings from "./components/Meanings/Meanings";
 import ModeSwitcher from "./components/ModeSwitcher/ModeSwitcher";
+import { useGlobalContext } from "./context";
 
 function App() {
+
+  const {darkMode} = useGlobalContext()
+
   return (
     <main 
       style={{
-        backgroundColor:'#282c34',
-        color:'white'    
+        backgroundColor: darkMode ? '#282c34' : '#fff',
+        color: darkMode ? '#fff' : '#000'   
       }}
     >
       <Container
@@ -25,7 +29,6 @@ function App() {
         <Meanings/>
       </Container>
     </main>
-
   );
 }
 
